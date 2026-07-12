@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../../test/MyBigShop.Domain.Tests/MyBigShop.Domain.Tests.csproj" />
+  <Project Path="MyBigShop.Domain.csproj" />
+</Solution>

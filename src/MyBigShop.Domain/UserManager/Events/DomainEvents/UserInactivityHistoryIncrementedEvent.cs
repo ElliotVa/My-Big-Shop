@@ -1,0 +1,19 @@
+﻿using MyBigShop.Domain.UserManager.Events.IEvents;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace MyBigShop.Domain.UserManager.Events.DomainEvents
+{
+    public class UserInactivityHistoryIncrementedEvent : IDomainEvents
+    {
+        public Guid Id { get; }
+        public DateTime OccurredOn { get; }
+
+        public UserInactivityHistoryIncrementedEvent(Guid id)
+        {
+            Id = id;
+            OccurredOn = DateTime.UtcNow;
+        }
+    }
+}
