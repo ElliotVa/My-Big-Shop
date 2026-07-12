@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="D:/Big Shop/MyBigShop.Api/MyBigShop.Api.csproj" />
+    <Project Path="D:/Big Shop/MyBigShop.Application/MyBigShop.Application.csproj" />
+    <Project Path="D:/Big Shop/MyBigShop.Domain/MyBigShop.Domain.csproj" />
+    <Project Path="D:/Big Shop/MyBigShop.Infrastructure/MyBigShop.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="D:/Big Shop/MyBigShop.Application.Tests/MyBigShop.Application.Tests.csproj" />
+    <Project Path="D:/Big Shop/MyBigShop.Domain.Tests/MyBigShop.Domain.Tests.csproj" />
+    <Project Path="D:/Big Shop/MyBigShop.Infrastructure.Tests/MyBigShop.Integration.Tests.csproj" />
+  </Folder>
+  <Project Path="D:/Big Shop/My Big Project/My Big Project.csproj" />
+</Solution>
